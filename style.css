@@ -1,0 +1,358 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans';
+}
+.center{
+    width: 80%;
+    margin: auto;
+}
+.navitem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.right{
+    width: 15%;
+}
+
+.right ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none ;
+}
+.right ul a{
+    text-decoration: none;
+    color: #676770;
+}
+.right ul li:nth-child(1) a{
+    color: #0082f3;
+    
+}
+.right ul a:hover{
+    background-color: rgb(15, 231, 47);
+    transition: 0.7s ease;
+    color: #e2e4f7;
+    padding: 4px;
+}
+.left{
+    color: #69B9FF;
+    letter-spacing: 4px;
+    font-size:25px;
+    font-weight: 400;
+}
+.vel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-size: 100% 100%;
+    background-image: url(./image/IMAGE.png);
+}
+.velcent{
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    color: white;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.sig{
+    padding: 13px 30px;
+    color: white;
+    background-color:#0082f3;
+    border: none;
+    border-radius: 4px;
+    margin-right: 20px;
+    cursor:pointer;
+}
+.sig:hover{
+    background-color: aqua;
+    transition: 0.7s ease;
+    color: #f83007;
+}
+.ler{
+    padding: 13px 30px;
+    border-radius: 4px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.ler:hover{
+    background-color: rgb(149, 158, 158);
+    transition: 0.7s ease;
+    color: #0723f8;
+    border: none;
+}
+.des{
+    text-align: center;
+}
+#we{
+    margin-top: 77px;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+#is{
+    margin-top: 17px;
+    letter-spacing: 3px;
+    font-size: 17px;
+    line-height: 20px;
+}
+.awes{
+    margin-top: 62px;
+    margin-bottom: 80px ;
+    
+}
+.awsen h3{
+    margin: 31px 14px;
+}
+.awescen{
+    width: 20%;
+    padding: 24px;
+    border: 1px solid #DCEBF7;
+    border-radius: 5px;
+}
+.awes{
+    width: 100;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom{
+    line-height: 25px;
+    color: #6A859C;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.service{
+    background-color:  #192024;
+    color: white;
+    text-align: center ;
+}
+.service h1{
+    padding-top: 77px;
+    font-size: 30px;
+    font-size: 400;
+    letter-spacing: 5px;
+}
+.service p{
+    margin-top: 17px;
+    color:#E8E8E8  !important;
+    font-size: 17px;
+    line-height: 25px;
+   
+}
+.one{
+    width: 100;
+    display: flex;
+    justify-content: space-between;
+}
+.top img{
+  margin-top: 77px;
+}
+.botom h2{
+margin-top: 20px;
+}
+.button button{
+margin-top: 27px;
+margin-bottom: 95px;
+font-size: 16px;
+color: white;
+letter-spacing: 2px;
+border-radius:0 4px;
+padding: 11px 31px;
+background-color: transparent;
+border-color: white;
+cursor: pointer;
+
+
+}
+.button button:hover{
+    background-color: gray;
+    color: #5accec;
+    transition: 0.7s ease;
+    border: none;
+}
+#sec{
+    text-align: center;
+    margin-top: 77px;
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: #676770;
+}
+#som{
+    margin-top: 17px;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #8E8E9C;
+    font-weight: 400;
+}
+.knop{
+   margin-top: 74px;
+    display: flex;
+ 
+  justify-content: center;
+
+
+   
+}
+.but1 button:hover{
+    background-color: #5accec;
+    color: #6d09f0;
+    transition: 0.7s ease;
+    border: none;
+    cursor: pointer;
+}
+.but2 button:hover{
+    background-color: #5accec;
+    color: #6d09f0;
+    transition: 0.7s ease;
+    border: none;
+    cursor: pointer;
+   
+}
+.but3 button:hover{
+    background-color: #5accec;
+    color: #6d09f0;
+    transition: 0.7s ease;
+    border: none;
+    cursor: pointer;
+}
+.but1 button{
+    padding: 1px 30px;
+    background-color:#2E80B6;
+    border: none;
+    border-radius: 4px;
+    color:white
+}
+.but2 button{
+    padding: 1px 30px;
+    background-color:#92A0AD;
+    border: none;
+    border-radius: 4px;
+    color:white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.but3 button{
+    padding: 1px 30px;
+    background-color:#92A0AD;
+    border: none;
+    border-radius: 4px;
+    color:white
+}
+.toop img{
+    margin-top: 53px;
+}
+.bootm h1{
+    margin-top: 16px;
+    font-size: 31px;
+    text-align: center;
+    color: #676770;
+}
+.bootm p{
+
+    margin-top: 14px;
+    font-size: 13px;
+    text-align: center;
+    color: #6A859C;
+    line-height: 25px;
+}
+.aboutt{
+    display: flex;
+    margin-top: 123px;
+}
+.aboutt h2{
+    
+    font-size: 18px;
+    font-weight: 400;
+    color: #676770;
+    letter-spacing: 4px;
+}
+.aboutt ul li {
+    margin-top: 25px;
+}
+.abvel{
+    width: 33%;
+}
+.abvel p{
+    margin-top: 25px;
+    font-size: 14px;
+  line-height: 25px;
+    color:  #6A859C;
+    font-weight: 400;
+   
+}
+.usef{
+    width: 33%;
+    margin: 0px 21px;
+    
+}
+.social{
+    width: 33%;
+}
+.usef ul{
+    list-style-type: none;
+}
+.social ul{
+    list-style-type: none;
+}
+.usef ul li a{
+    text-decoration: none;
+    color: #668CAD;
+    font-size: 13px;
+}
+.usef ul li a:hover{
+    background-color: #192024;
+    color: whitesmoke;
+    border: none;
+    border-radius: 3px;
+    padding: 4px;
+    transition: 0.8s ease;
+}
+.social ul li a{
+    text-decoration: none;
+    color: #668CAD;
+    font-size: 13px;
+
+}
+.social ul li a:hover{
+    background-color: #192024;
+    color: whitesmoke;
+    border: none;
+    border-radius: 3px;
+    padding: 4px;
+    transition: 0.8s ease;
+}
+.usef ul li{
+    border-bottom: 1px solid #D5D5E0;
+}
+.ico  li{
+   width: 300%;
+    border-bottom: 1px solid #D5D5E0;
+}
+.icon{
+    display: flex;
+   
+}
+.social ul{
+    padding:0 5px ;
+}
+.foot{
+    height: 101px;
+    background-color: #383838;
+    text-align: center;
+    color: white;
+}
+.foot p{
+    margin-top: 40px;
+    color: white;
+}
+
+
+
